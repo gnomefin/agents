@@ -490,7 +490,6 @@ class AgentActivity(RecognitionHooks):
             min_endpointing_delay=self._session.options.min_endpointing_delay,
             max_endpointing_delay=self._session.options.max_endpointing_delay,
             turn_detection_mode=self._turn_detection_mode,
-            diarization_handler=self._session._diarization_handler,
         )
         self._audio_recognition.start()
 
